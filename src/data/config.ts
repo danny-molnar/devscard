@@ -1,20 +1,20 @@
 import type { Config } from '@/types/data';
-import { enUS } from 'date-fns/locale';
+import { enGB } from 'date-fns/locale';
 import type { ReadonlyDeep } from 'type-fest';
 
 const config = {
   i18n: {
-    locale: enUS,
+    locale: enGB,
     dateFormat: 'MMMM yyyy',
     translations: {
       now: 'now',
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Danny Molnar - Cloud DevOps Engineer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
-    faviconPath: '/src/assets/my-image.jpeg',
+      'Experienced Cloud DevOps Engineer skilled in designing, implementing, and optimizing cloud solutions across AWS and GCP. Proficient in infrastructure automation, CI/CD pipeline development, and cloud-native deployments. Track record of leading high-impact projects, enhancing system scalability, performance, and reliability through innovative DevOps practices. Adept at fostering collaboration for continuous improvement and technical excellence. Seeking challenging projects with teams valuing innovation, efficiency, and quality in cloud computing solutions.',
+    faviconPath: '/src/assets/favicon.png',
   },
   pdf: {
     footer:

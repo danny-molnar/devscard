@@ -164,3 +164,101 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+export const aws = createSkillFactory({
+  name: 'AWS',
+  icon: 'simple-icons:aws',
+  iconColor: '#FF9900',
+  url: 'https://aws.amazon.com/',
+});
+
+export const gcp = createSkillFactory({
+  name: 'Google Cloud Platform (GCP)',
+  icon: 'simple-icons:googlecloud',
+  iconColor: '#4285F4',
+  url: 'https://cloud.google.com/',
+});
+
+export const docker = createSkillFactory({
+  name: 'Docker',
+  icon: 'simple-icons:docker',
+  iconColor: '#2496ED',
+  url: 'https://www.docker.com/',
+});
+
+export const kubernetes = createSkillFactory({
+  name: 'Kubernetes',
+  icon: 'simple-icons:kubernetes',
+  iconColor: '#326CE5',
+  url: 'https://kubernetes.io/',
+});
+
+export const terraform = createSkillFactory({
+  name: 'Terraform',
+  icon: 'simple-icons:terraform',
+  iconColor: '#623CE4',
+  url: 'https://www.terraform.io/',
+});
+
+export const machineLearning = createSkillFactory({
+  name: 'Machine Learning',
+  icon: 'simple-icons:tensorflow',
+  iconColor: '#FF6F00',
+  url: 'https://www.tensorflow.org/',
+});
+
+export const python = createSkillFactory({
+  name: 'Python',
+  icon: 'simple-icons:python',
+  iconColor: '#3776AB',
+  url: 'https://www.python.org/',
+});
+
+export const bash = createSkillFactory({
+  name: 'Bash',
+  icon: 'simple-icons:bash',
+  iconColor: '#4EAA25',
+  url: 'https://www.gnu.org/software/bash/',
+});
+
+export const golang = createSkillFactory({
+  name: 'Golang',
+  icon: 'simple-icons:go',
+  iconColor: '#00ADD8',
+  url: 'https://golang.org/',
+});
+
+export const javascript = createSkillFactory({
+  name: 'JavaScript',
+  icon: 'simple-icons:javascript',
+  iconColor: '#F7DF1E',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+});
+
+export const dataAnalytics = createSkillFactory({
+  name: 'Data Analytics',
+  icon: 'iconify:mdi-chart-bar',
+  iconColor: '#00C853',
+  url: '', // Add URL if there's any official documentation or reference.
+});
+
+export const linux = createSkillFactory({
+  name: 'Linux',
+  icon: 'simple-icons:linux',
+  iconColor: '#FCC624',
+  url: 'https://www.linux.org/',
+});
+
+export const githubActions = createSkillFactory({
+  name: 'GitHub Actions - CI/CD',
+  icon: 'simple-icons:githubactions',
+  iconColor: '#2088FF',
+  url: 'https://github.com/features/actions',
+});
+
+export const ansible = createSkillFactory({
+  name: 'Ansible',
+  icon: 'simple-icons:ansible',
+  iconColor: '#2066EE',
+  url: 'https://www.ansible.com/',
+});

@@ -1,22 +1,19 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
-  apolloGraphql,
-  astro,
-  chakraUi,
-  cypress,
-  eslint,
-  firebase,
-  mongoDb,
-  nestJs,
-  pnpm,
-  postgreSql,
-  prettier,
-  react,
-  sass,
-  supabase,
-  tailwindCss,
-  typescript,
+  aws,
+  bash,
+  dataAnalytics,
+  gcp,
+  githubActions,
+  golang,
+  kubernetes,
+  python,
+  terraform,
+  ansible,
+  linux,
+  machineLearning,
+  javascript,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -30,48 +27,47 @@ const skillsSectionData = {
     {
       title: 'I already know',
       skills: [
-        react({
+        terraform({
           level: 5,
           description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+            'I have utilized Terraform and Terratest extensively for infrastructure automation and testing.\nAdditionally, I have built robust modules to reliably manage cloud infrastructures.\nI have also personally developed and maintained resilient cloud architectures, integrating Terragrunt to enhance the efficiency of infrastructure management.',
         }),
-        typescript({
-          level: 4,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-        }),
-        sass({
-          level: 4,
-          description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
-        }),
-        chakraUi({ level: 5 }),
-        tailwindCss({ level: 3 }),
-        prettier({ level: 5 }),
-        eslint({
+        aws({
           level: 4,
           description:
-            'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
+            'Athena\nCloudWatch\nEBS\nEC2\nS3\nSageMaker\nVPC\nAFT\nSSM',
         }),
-        nestJs({
-          level: 3,
+        gcp({
+          level: 4,
           description:
-            'Praesent feugiat ultricies iaculis. In posuere vehicula odio, sed consequat velit porta viverra.',
+            'API Gateway\nApp Engine\nCloud Functions\nCloud Logging\nCloud Run\nCloud SQL\nCompute Engine\nFirestore\nGKE\nPub/Sub',
         }),
-        postgreSql({ level: 2 }),
-        mongoDb({ level: 1 }),
-        firebase({ level: 1 }),
-        pnpm({ level: 3 }),
+        dataAnalytics({
+          level: 4,
+          description:
+            'Proficient in data analytics, utilising tools such as Anaconda, SQL, R, and Tableau for insightful data interpretation',
+        }),
+        ansible({ level: 4 }),
+        linux({ level: 4 }),
+        githubActions({ level: 4 }),
+        bash({ level: 4 }),
+        python({ level: 4 }),
+        golang({ level: 3 }),
+        javascript({ level: 3 }),
+        kubernetes({ level: 2 }),
+        machineLearning({ level: 3 }),
       ],
     },
     {
       title: 'I want to learn',
-      skills: [apolloGraphql(), astro(), supabase(), cypress()],
+      skills: [aws()],
     },
     {
       title: 'I speak',
       skills: [
-        { icon: 'circle-flags:pl', name: 'Polish - native' },
-        { icon: 'circle-flags:us', name: 'English - C1' },
-        { icon: 'circle-flags:es-variant', name: 'Spanish - B1' },
+        { icon: 'circle-flags:hu', name: 'Hungarian - native' },
+        { icon: 'circle-flags:uk', name: 'English ~ C1' },
+        { icon: 'circle-flags:de', name: 'German - intermediate' },
       ],
     },
   ],
