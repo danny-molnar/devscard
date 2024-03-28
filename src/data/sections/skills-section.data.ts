@@ -14,6 +14,13 @@ import {
   linux,
   machineLearning,
   javascript,
+  nodejs,
+  rust,
+  mojo,
+  istio,
+  mlops,
+  dataEngineering,
+  typescript,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -40,7 +47,7 @@ const skillsSectionData = {
         gcp({
           level: 4,
           description:
-            'API Gateway\nApp Engine\nCloud Functions\nCloud Logging\nCloud Run\nCloud SQL\nCompute Engine\nFirestore\nGKE\nPub/Sub',
+            'API Gateway\nApp Engine\nBigQuery\nCloud Functions\nCloud Logging\nCloud Run\nCloud SQL\nCompute Engine\nFirestore\nGKE\nPub/Sub',
         }),
         dataAnalytics({
           level: 4,
@@ -52,21 +59,29 @@ const skillsSectionData = {
         githubActions({ level: 4 }),
         bash({ level: 4 }),
         python({ level: 4 }),
+        javascript({ level: 4 }),
         golang({ level: 3 }),
-        javascript({ level: 3 }),
-        kubernetes({ level: 2 }),
+        kubernetes({ level: 3 }),
         machineLearning({ level: 3 }),
       ],
     },
     {
       title: 'I want to learn',
-      skills: [aws()],
+      skills: [
+        nodejs(),
+        typescript(),
+        rust(),
+        mojo(),
+        istio(),
+        mlops(),
+        dataEngineering(),
+      ],
     },
     {
       title: 'I speak',
       skills: [
         { icon: 'circle-flags:hu', name: 'Hungarian - native' },
-        { icon: 'circle-flags:uk', name: 'English ~ C1' },
+        { icon: 'circle-flags:uk', name: 'English ~ c1' },
         { icon: 'circle-flags:de', name: 'German - intermediate' },
       ],
     },

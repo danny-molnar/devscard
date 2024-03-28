@@ -1,6 +1,13 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
+import {
+  facebook,
+  github,
+  instagram,
+  linkedin,
+  twitter,
+  website,
+} from '../helpers/links';
 import {
   chakraUi,
   eslint,
@@ -38,7 +45,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [],
       },
       links: [facebook({ url: '#' }), linkedin({ url: '#' })],
     },
@@ -55,7 +62,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [],
       },
       links: [website({ url: '#' }), instagram({ url: '#' })],
     },
@@ -74,7 +81,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [],
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },

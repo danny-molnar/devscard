@@ -18,139 +18,6 @@ skill({ description: '...' }) — returns skill with a description displayed whe
 
 */
 
-export const apolloGraphql = createSkillFactory({
-  name: 'Apollo GraphQL',
-  icon: 'simple-icons:apollographql',
-  iconColor: '#311C87',
-  url: 'https://www.apollographql.com/',
-});
-
-export const astro = createSkillFactory({
-  name: 'Astro',
-  icon: 'simple-icons:astro',
-  iconColor: '#FF5D01',
-  url: 'https://astro.build/',
-});
-
-export const chakraUi = createSkillFactory({
-  name: 'Chakra UI',
-  icon: 'simple-icons:chakraui',
-  iconColor: '#319795',
-  url: 'https://chakra-ui.com/',
-});
-
-export const cypress = createSkillFactory({
-  name: 'Cypress',
-  icon: 'simple-icons:cypress',
-  iconColor: '#17202C',
-  url: 'https://www.cypress.io/',
-});
-
-export const eslint = createSkillFactory({
-  name: 'ESLint',
-  icon: 'simple-icons:eslint',
-  iconColor: '#4B32C3',
-  url: 'https://eslint.org/',
-});
-
-export const firebase = createSkillFactory({
-  name: 'Firebase',
-  icon: 'simple-icons:firebase',
-  iconColor: '#FFCA28',
-  url: 'https://firebase.google.com/',
-});
-
-export const jest = createSkillFactory({
-  name: 'Jest',
-  icon: 'simple-icons:jest',
-  iconColor: '#C21325',
-  url: 'https://jestjs.io/',
-});
-
-export const mongoDb = createSkillFactory({
-  name: 'MongoDB',
-  icon: 'simple-icons:mongodb',
-  iconColor: '#47A248',
-  url: 'https://www.mongodb.com/',
-});
-
-export const nestJs = createSkillFactory({
-  name: 'NestJS',
-  icon: 'simple-icons:nestjs',
-  iconColor: '#E0234E',
-  url: 'https://nestjs.com/',
-});
-
-export const nextJs = createSkillFactory({
-  name: 'Next.js',
-  icon: 'simple-icons:nextdotjs',
-  iconColor: '#000000',
-  url: 'https://nextjs.org/',
-});
-
-export const nx = createSkillFactory({
-  name: 'Nx',
-  icon: 'simple-icons:nx',
-  iconColor: '#143055',
-  url: 'https://nx.dev/',
-});
-
-export const pnpm = createSkillFactory({
-  name: 'pnpm',
-  icon: 'simple-icons:pnpm',
-  iconColor: '#F69220',
-  url: 'https://pnpm.io/',
-});
-
-export const postgreSql = createSkillFactory({
-  name: 'PostgreSQL',
-  icon: 'simple-icons:postgresql',
-  iconColor: '#4169E1',
-  url: 'https://www.postgresql.org/',
-});
-
-export const prettier = createSkillFactory({
-  name: 'Prettier',
-  icon: 'simple-icons:prettier',
-  iconColor: '#F7B93E',
-  url: 'https://prettier.io/',
-});
-
-export const react = createSkillFactory({
-  name: 'React.js',
-  icon: 'simple-icons:react',
-  iconColor: '#61DAFB',
-  url: 'https://reactjs.org/',
-});
-
-export const reactQuery = createSkillFactory({
-  name: 'React Query',
-  icon: 'simple-icons:reactquery',
-  iconColor: '#FF4154',
-  url: 'https://tanstack.com/query',
-});
-
-export const sass = createSkillFactory({
-  name: 'SASS',
-  icon: 'simple-icons:sass',
-  iconColor: '#CC6699',
-  url: 'https://sass-lang.com/',
-});
-
-export const supabase = createSkillFactory({
-  name: 'Supabase',
-  icon: 'simple-icons:supabase',
-  iconColor: '#3ECF8E',
-  url: 'https://supabase.io/',
-});
-
-export const tailwindCss = createSkillFactory({
-  name: 'Tailwind CSS',
-  icon: 'simple-icons:tailwindcss',
-  iconColor: '#06B6D4',
-  url: 'https://tailwindcss.com/',
-});
-
 export const typescript = createSkillFactory({
   name: 'TypeScript',
   icon: 'simple-icons:typescript',
@@ -158,22 +25,15 @@ export const typescript = createSkillFactory({
   url: 'https://www.typescriptlang.org/',
 });
 
-export const vue = createSkillFactory({
-  name: 'Vue.js',
-  icon: 'simple-icons:vuedotjs',
-  iconColor: '#4FC08D',
-  url: 'https://vuejs.org/',
-});
-
 export const aws = createSkillFactory({
   name: 'AWS',
-  icon: 'simple-icons:aws',
+  icon: 'simple-icons:amazonaws',
   iconColor: '#FF9900',
   url: 'https://aws.amazon.com/',
 });
 
 export const gcp = createSkillFactory({
-  name: 'Google Cloud Platform (GCP)',
+  name: 'Google Cloud (GCP)',
   icon: 'simple-icons:googlecloud',
   iconColor: '#4285F4',
   url: 'https://cloud.google.com/',
@@ -202,9 +62,9 @@ export const terraform = createSkillFactory({
 
 export const machineLearning = createSkillFactory({
   name: 'Machine Learning',
-  icon: 'simple-icons:tensorflow',
+  icon: 'icon-park:chart-graph',
   iconColor: '#FF6F00',
-  url: 'https://www.tensorflow.org/',
+  url: '',
 });
 
 export const python = createSkillFactory({
@@ -216,7 +76,7 @@ export const python = createSkillFactory({
 
 export const bash = createSkillFactory({
   name: 'Bash',
-  icon: 'simple-icons:bash',
+  icon: 'simple-icons:gnubash',
   iconColor: '#4EAA25',
   url: 'https://www.gnu.org/software/bash/',
 });
@@ -237,9 +97,9 @@ export const javascript = createSkillFactory({
 
 export const dataAnalytics = createSkillFactory({
   name: 'Data Analytics',
-  icon: 'iconify:mdi-chart-bar',
+  icon: 'icon-park:chart-histogram-two',
   iconColor: '#00C853',
-  url: '', // Add URL if there's any official documentation or reference.
+  url: '',
 });
 
 export const linux = createSkillFactory({
@@ -261,4 +121,46 @@ export const ansible = createSkillFactory({
   icon: 'simple-icons:ansible',
   iconColor: '#2066EE',
   url: 'https://www.ansible.com/',
+});
+
+export const nodejs = createSkillFactory({
+  name: 'Node.js',
+  icon: 'simple-icons:nodedotjs',
+  iconColor: '#68A063',
+  url: 'https://nodejs.org/',
+});
+
+export const rust = createSkillFactory({
+  name: 'Rust',
+  icon: 'simple-icons:rust',
+  iconColor: '#000000',
+  url: 'https://www.rust-lang.org/',
+});
+
+export const mojo = createSkillFactory({
+  name: 'Mojo',
+  icon: 'fa6-solid:fire-flame-curved',
+  iconColor: '#FFC107',
+  url: 'https://www.modular.com/max/mojo',
+});
+
+export const istio = createSkillFactory({
+  name: 'Istio',
+  icon: 'simple-icons:istio',
+  iconColor: '#0056C7',
+  url: 'https://istio.io/',
+});
+
+export const mlops = createSkillFactory({
+  name: 'MLOps',
+  icon: 'fa6-solid:robot',
+  iconColor: '#FF7043',
+  url: '',
+});
+
+export const dataEngineering = createSkillFactory({
+  name: 'Data Engineering',
+  icon: 'icon-park:data',
+  iconColor: '#795548',
+  url: '',
 });
